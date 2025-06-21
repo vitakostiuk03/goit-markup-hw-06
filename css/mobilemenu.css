@@ -60,8 +60,10 @@
     margin-bottom: 40px;
 }
 
-.team-list-icon {
+.team-list-icon-mod{
+    display: flex;
     gap: 40px;
+
 }
 
 .nav-mobile{
