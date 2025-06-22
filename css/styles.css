@@ -337,7 +337,7 @@ button{
  
  .team-section {
      background: #f4f4fd;
-     padding: 120px 0;
+     padding: 96px 0;
  }
 
  .team-title {
@@ -431,14 +431,14 @@ button{
     .team-list{
         gap: 64px 24px;
     }
+
  }
 
  @media screen and (min-width: 1158px){ 
     .container {
-        width: 1158px;
-     }
-
-    .team-title{
+     width: 1158px;
+ }
+  .team-title{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -455,6 +455,10 @@ button{
      border-radius: 0px 0px 4px 4px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);}
+
+    .team-section{
+        padding: 120px 0;
+    }
  }
 
 

@@ -126,6 +126,7 @@
 .icon-social {
     fill: #f4f4fd;
 }
+
 .form-content-text {
     text-align: center;
     margin-bottom: 16px;
@@ -144,7 +145,7 @@
 }
 
 .form-input-email {
-    width: 264px;
+    width: 288px;
     height: 40px;
     border: 1px solid #ffffff;
     background-color: transparent;
@@ -202,16 +203,31 @@
             padding: 0 92px;
           }
           .footer-left , .footer-socials{
-            flex: 0 0 50%;
             margin: 0;
+            max-width: 264px;
           }
           .social-list {
-            justify-content: center;
+            justify-content:left;
           }
           .form-content-text {
             text-align: start;
           }
 
+          .form-input-email{
+            width: 264px;
+          }
+
+          .social-text{
+            text-align: left;
+          }
+
+          .footer-logo{
+            text-align: left;
+          }
+
+          .footer-left{
+            padding-right: 24px;
+          }
 }
 
 @media screen and (min-width: 1158px) {
@@ -222,7 +238,7 @@
             margin-right: 80px;
         }
         .footer-cont {
-            padding: 0;
+            padding: 0 15px;
         }
                 .footer-left {
                 margin-right: 120px;

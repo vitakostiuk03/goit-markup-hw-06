@@ -56,13 +56,15 @@
     color: #434455;
 }
 
-.mobile-menu-email-item{
-    margin-bottom: 40px;
-}
-
 .team-list-icon-mod{
     display: flex;
     gap: 40px;
+
+}
+
+.mob-menu-address{
+    margin-bottom: 48px;
+    font-style: normal;
 
 }
 
@@ -84,15 +86,13 @@
     margin-bottom: 40px;
 }
 
-.nav-mobile-menu:last-child{
-    margin-bottom: 0;
-}
 
 .nav-mobile-list{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
+
 
 .mobile-menu-close{
     
