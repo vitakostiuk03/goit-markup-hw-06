@@ -65,25 +65,44 @@
     }
 }
 
-@media (min-resolution: 2x){
-    .main-section{
-        max-width: 320px;
-        background-image: url(../images/hero/hero\ image@2x-min.jpg-min.jpg);
-    }
+
+.main-section{
+    background-image:
+    url(../images/hero/hero-image-min.jpg);
 }
+
 
 @media (min-resolution: 2x){
     .main-section{
-        max-width: 768px;
-        background-image: url(../images/hero/hero-tab-image@2x-min.jpg);
+        background-image:
+            url(../images/hero/hero-image@2x-min.jpg); ;
     }
 }
-@media (min-resolution: 2x) {
-    .main-section {
-        max-width: 1440px;
+
+@media screen and (min-width: 768px){
+    .main-section{
+        background-image: url(../images/hero/hero-tab-image-min.jpg);
+    }
+      @media (min-resolution: 2x){
+        .main-section{
+        background-image: url(../images/hero/hero-tab-image@2x-min.jpg);
+        }
+      }
+}
+
+@media screen and (min-width: 1158px){
+ .main-section{
+    background-image: url(../images/hero/hero-desk-image-min.jpg);
+
+ }
+ @media (min-resolution: 2x){
+    .main-section{
         background-image: url(../images/hero/hero-desk-image@2x-min.jpg);
     }
+ }
 }
+
+
 
 
 

@@ -21,8 +21,6 @@
 
 .mobile-menu-container{
     position: relative;
-    padding-top: 72px;
-    padding-bottom: 40px;
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -36,6 +34,7 @@
 
 .mobile-menu-nav{
     margin-bottom: auto;
+    padding-top: 74px;
 }
 .mobile-menu-item{
     margin-bottom: 24px;
@@ -59,6 +58,7 @@
 .team-list-icon-mod{
     display: flex;
     gap: 40px;
+    padding-bottom: 40px;
 
 }
 

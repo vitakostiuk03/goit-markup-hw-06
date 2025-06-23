@@ -196,12 +196,14 @@
     fill: #4D5AE5;
 }
 @media screen and (min-width: 768px) {
-    .footer-socials {
+       .footer-socials {
             margin: 0;   
     }
         .footer-cont {
-            padding: 0 92px;
+            padding: 0 108px;
+            
           }
+
           .footer-left , .footer-socials{
             margin: 0;
             max-width: 264px;
@@ -226,7 +228,7 @@
           }
 
           .footer-left{
-            padding-right: 24px;
+            margin-right: 24px;
           }
 }
 
